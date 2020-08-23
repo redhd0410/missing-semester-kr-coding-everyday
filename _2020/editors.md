@@ -12,11 +12,9 @@ video:
 
 개발자는 대부분의 시간을 코드를 수정하는데에 할애하기 때문에, 당신의 요구에 맞는 에디터를 완벽하게 익힐 필요가 있습니다. 에디터는 다음과 같이 익힐 수 있습니다. 
 
-- 튜토리얼을 공부한다 (이 강의와 강의에서 제공하는 자료)
-- Stick with using the editor for all your text editing needs (even if it slows
-you down initially)
-- Look things up as you go: if it seems like there should be a better way to do
-something, there probably is
+- 튜토리얼을 공부한다. (예시: 이 강의와 강의에서 제공하는 자료)
+- 모든 문서를 고른 에디터를 사용해 수정한다. (처음에는 작업 속도가 더 느려지더라도) 
+- 에디터를 사용하면서 모르는 것이 있으면 검색한다.
 
 If you follow the above method, fully committing to using the new program for
 all text editing purposes, the timeline for learning a sophisticated text
@@ -30,29 +28,22 @@ learn more.
 
 # 어떤 에디터를 사용해야 할까요? 
 
-대부분의 개발자가 에디터에 관한 [뚜렷한 주관](https://en.wikipedia.org/wiki/Editor_war)을 가지고 있습니다.
+대부분의 개발자가 에디터에 관한 [뚜렷한 주관](https://en.wikipedia.org/wiki/Editor_war)을 가지고 있습니다. 
 
-최근에는 어떤 에디터가 가장 인기있을까요? 스택 오버플로우에서 주최한 [설문조사](https://insights.stackoverflow.com/survey/2019/#development-environments-and-tools) 에 따르면, [비주얼 스튜디오 코드](https://code.visualstudio.com/) 가 가장 인기 있는 것으로 드러났습니다. 
+최근에는 어떤 에디터가 가장 인기있을까요? 스택 오버플로우에서 주최한 [설문조사](https://insights.stackoverflow.com/survey/2019/#development-environments-and-tools) 에 따르면, [비주얼 스튜디오 코드](https://code.visualstudio.com/) 가 가장 인기 있는 것으로 드러났습니다. (스택오버플로우가 개발자 전체를 대표하지 않기 때문에 왜곡된 결과일 수 있습니다.) 가장 인기있는 커맨드 라인 에디터는 [빔](https://www.vim.org/)입니다.
 
-## Vim
+## Vim (빔) 
 
-All the instructors of this class use Vim as their editor. Vim has a rich
-history; it originated from the Vi editor (1976), and it's still being
-developed today. Vim has some really neat ideas behind it, and for this reason,
+이 수업의 강사들은 모두 빔을 사용합니다. Vim은 Vi(1976) 에디터에서부터 시작되어, 최근까지 개발중인 에디터입니다. Vim has some really neat ideas behind it, and for this reason,
 lots of tools support a Vim emulation mode (for example, 1.4 million people
 have installed [Vim emulation for VS code](https://github.com/VSCodeVim/Vim)).
-Vim is probably worth learning even if you finally end up switching to some
-other text editor.
+따라서, 만약 다른 에디터를 사용하기로 결정한다 해도, Vim을 공부하는 데에 시간을 투자할 가치가 있습니다. 
 
-It's not possible to teach all of Vim's functionality in 50 minutes, so we're
-going to focus on explaining the philosophy of Vim, teaching you the basics,
-showing you some of the more advanced functionality, and giving you the
-resources to master the tool.
+빔의 모든 기능을 50분 안에 설명하는 것은 불가능하므로, 빔의 기초와 몇 개의 고급 기능, 또 빔을 익히기 위한 자료를 제공하는 데에 집중하겠습니다. 
 
 # Philosophy of Vim
 
-When programming, you spend most of your time reading/editing, not writing. For
-this reason, Vim is a _modal_ editor: it has different modes for inserting text
+위에서 말했듯이, 프로그래밍을 할 때에는 작성하는 것이 아니라 코드를 읽고 수정하는데에 가장 많은 시간을 할애합니다. 따라서, 빔은 __모달__ 에디터입니다.: it has different modes for inserting text
 vs manipulating text. Vim is programmable (with Vimscript and also other
 languages like Python), and Vim's interface itself is a programming language:
 keystrokes (with mnemonic names) are commands, and these commands are
