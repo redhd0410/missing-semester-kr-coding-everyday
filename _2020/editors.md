@@ -8,17 +8,11 @@ video:
   id: a6Q8Na575qc
 ---
 
-Writing English words and writing code are very different activities. When
-programming, you spend more time switching files, reading, navigating, and
-editing code compared to writing a long stream. It makes sense that there are
-different types of programs for writing English words versus code (e.g.
-Microsoft Word versus Visual Studio Code).
+영어로 문장을 쓰는 것과 코드를 작성하는 것은 매우 다릅니다. 글을 쓸 때와 다르게, 프로그래밍을 할 때는 파일을 전환하고, 읽고, 탐색하고, 코드를 수정하는 데에 많은 시간을 할애합니다. 따라서, 코드를 작성할 때는 글을 쓸 때와는 다른 유형의 프로그램이 요구됩니다. (예시: 마이크로소프트 워드 vs 비주얼 스튜디오 코드) 
 
-As programmers, we spend most of our time editing code, so it's worth investing
-time mastering an editor that fits your needs. Here's how you learn a new
-editor:
+개발자는 대부분의 시간을 코드를 수정하는데에 할애하기 때문에, 당신의 요구에 맞는 에디터를 완벽하게 익힐 필요가 있습니다. 에디터는 다음과 같이 익힐 수 있습니다. 
 
-- Start with a tutorial (i.e. this lecture, plus resources that we point out)
+- 튜토리얼을 공부한다 (이 강의와 강의에서 제공하는 자료)
 - Stick with using the editor for all your text editing needs (even if it slows
 you down initially)
 - Look things up as you go: if it seems like there should be a better way to do
@@ -34,17 +28,11 @@ memory that using the new editor saves you time. Modern text editors are fancy
 and powerful tools, so the learning never stops: you'll get even faster as you
 learn more.
 
-# Which editor to learn?
+# 어떤 에디터를 사용해야 할까요? 
 
-Programmers have [strong opinions](https://en.wikipedia.org/wiki/Editor_war)
-about their text editors.
+대부분의 개발자가 에디터에 관한 [뚜렷한 주관](https://en.wikipedia.org/wiki/Editor_war)을 가지고 있습니다.
 
-Which editors are popular today? See this [Stack Overflow
-survey](https://insights.stackoverflow.com/survey/2019/#development-environments-and-tools)
-(there may be some bias because Stack Overflow users may not be representative
-of programmers as a whole). [Visual Studio
-Code](https://code.visualstudio.com/) is the most popular editor.
-[Vim](https://www.vim.org/) is the most popular command-line-based editor.
+최근에는 어떤 에디터가 가장 인기있을까요? 스택 오버플로우에서 주최한 [설문조사](https://insights.stackoverflow.com/survey/2019/#development-environments-and-tools) 에 따르면, [비주얼 스튜디오 코드](https://code.visualstudio.com/) 가 가장 인기 있는 것으로 드러났습니다. 
 
 ## Vim
 
